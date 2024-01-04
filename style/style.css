@@ -1,0 +1,65 @@
+:root {
+    --main-color: rgba(255, 255, 255, 0.6);
+}
+
+figure {
+    transform: translate(15%, 15%);
+    display: inline-block;
+}
+
+#search {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: var(--main-color) !important;
+}
+
+::placeholder {
+    color: var(--main-color) !important;
+}
+
+#main {
+    display: inline-block;
+}
+
+body {
+    background-image: url(../bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: var(--main-color);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.navbar-brand {
+    color: var(--main-color) !important;
+}
+
+
+.btn1{
+    --bs-btn-color: var(--main-color);
+    --bs-btn-border-color: var(--main-color);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg:var(--main-color);
+    --bs-btn-hover-border-color: var(--main-color);
+    --bs-btn-active-bg: var(--main-color);
+    --bs-btn-active-border-color: var(--main-color);
+    --bs-btn-disabled-color: var(--main-color);
+    --bs-btn-disabled-border-color: var(--main-color);
+  
+}
